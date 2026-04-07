@@ -1,16 +1,9 @@
-```
-░▒▓███████▓▒░ ░▒▓██████▓▒░░▒▓████████▓▒░▒▓█▓▒░ 
-░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░ 
-░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░ 
-░▒▓███████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓██████▓▒░ ░▒▓█▓▒░ 
-░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░ 
-░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░ 
-░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░░▒▓█▓▒░      ░▒▓█▓▒░ 
-```
+<img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/repo-banners/cybr-rofi-banner.png" height=200px/>
 
-<img src="../assets/inspiration/insp-rofi.png"/></td>
+# Showcase
+<img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/showcase/cybr-rofi.png"/>
 <p align="center">
-  <em>rofi ↗ (top-left to bottom-right: launcher, clipboard, emoji; powermenu, screenshot menu, wallpaper menu)</em>
+  <em>rofi ↗ (top-left to bottom-right: launcher, clipboard, emoji; powermenu, screenshot menu, wallpaper switcher)</em>
 </p>
 
 > ![WARNING]
@@ -21,16 +14,16 @@
 # Steps
 ## 0. Before you start
 - Make sure [Geist Mono Nerd Font](../INSTALL.md#prerequisites--setup) is installed
-- Make sure hyprland is installed: `sudo pacman -S hyprland` and theme is applied  
+- Make sure hyprland is installed: `sudo pacman -S hyprland` and [cybrcore theme](https://github.com/cybrcore/cybrland) is applied
 - Make sure swaync is installed: `sudo pacman -S swaync`
 - See [Installation Guide](../INSTALL.md) if you haven't set up prerequisites yet
-- [Github](https://github.com/davatorium/rofi) | [Arch Wiki](https://wiki.archlinux.org/title/Rofi)
+- [rofi Github](https://github.com/davatorium/rofi) | [Arch Wiki](https://wiki.archlinux.org/title/Rofi)
 
 ## 1. Download rofi configs
 ```sh
-git clone --depth=1 --filter=blob:none --no-checkout https://github.com/scherrer-txt/cybrland.git && cd cybrland && git sparse-checkout init --cone && git sparse-checkout set rofi && git checkout main && mv rofi ~/.config/ && cd ~ && rm -rf cybrland
+git clone --depth=1 --filter=blob:none --no-checkout https://github.com/cybrcore/cybr-rofi.git && cd cybr-rofi && git sparse-checkout init --cone && git sparse-checkout set rofi && git checkout main && mv rofi ~/.config/ && cd ~ && rm -rf cybr-rofi
 ```
-↑ Unsure what this does? [Explanation](../INSTALL.md#How-sparse-checkout-works)  
+↑ Unsure what this does? [Explanation](https://github.com/cybrcore/cybrland/blob/main/INSTALL.md#How-sparse-checkout-works)  
 
 ## 2. Verify installation
 ```sh
@@ -58,7 +51,7 @@ chmod +x \
 ├── config.rasi             # main settings
 ├── style.rasi              # visual styling
 ├── theme/
-│   └── cybrlauncher.rasi   # global style settings
+│   └── cybrcore.rasi       # global style settings
 └── scripts/                # graphical elements
     ├── clipboard
 	│   ├── clipboard

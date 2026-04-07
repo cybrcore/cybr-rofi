@@ -1,8 +1,8 @@
 // ---------------------------------------
-// CYBRrofi    rofi global settings (part of cybrland)
-// Project:    https://github.com/scherrer-txt/cybrland
+// cybrcore    global settings for rofi (part of cybr-rofi)
+// Project:    https://github.com/cybrcore/cybr-rofi
 // Author:     scherrer-txt   |   License:     GPL-3.0
-// Source:     ~/.config/rofi/theme/cybrlauncher.rasi
+// Source:     ~/.config/rofi/theme/cybrcore.rasi
 // ---------------------------------------
 
 * {

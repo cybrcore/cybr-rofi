@@ -1,11 +1,11 @@
 // ---------------------------------------
-// CYBRrofi    rofi theme (part of cybrland)
-// Project:    https://github.com/scherrer-txt/cybrland
+// cybrcore    lucid theme for rofi (part of cybr-rofi)
+// Project:    https://github.com/cybrcore/cybr-rofi
 // Author:     scherrer-txt   |   License:     GPL-3.0
 // Source:     ~/.config/rofi/style.rasi
 // ---------------------------------------
 
-@theme "~/.config/rofi/theme/cybrlauncher.rasi"
+@theme "~/.config/rofi/theme/cybrcore.rasi"
 
 configuration {
 	modi:							"drun";
