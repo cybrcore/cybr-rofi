@@ -13,7 +13,13 @@
 
 # Steps
 ## 0. Before you start
-- Make sure [Geist Mono Nerd Font](../INSTALL.md#prerequisites--setup) is installed
+- Make sure [Geist Mono Nerd Font](https://www.nerdfonts.com/font-downloads) is installed, you can do that from terminal with:
+```bash
+curl -L https://github.com/ryanoasis/nerd-fonts/releases/latest/download/GeistMono.zip -o GeistMono.zip
+mkdir -p ~/.local/share/fonts
+unzip GeistMono.zip -d ~/.local/share/fonts/GeistMono
+fc-cache -fv
+```
 - Make sure hyprland is installed: `sudo pacman -S hyprland` and [cybrcore theme](https://github.com/cybrcore/cybrland) is applied
 - Make sure swaync is installed: `sudo pacman -S swaync`
 - See [Installation Guide](../INSTALL.md) if you haven't set up prerequisites yet
