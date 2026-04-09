@@ -20,16 +20,16 @@ mkdir -p ~/.local/share/fonts
 unzip GeistMono.zip -d ~/.local/share/fonts/GeistMono
 fc-cache -fv
 ```
-- Make sure hyprland is installed: `sudo pacman -S hyprland` and [cybrcore theme](https://github.com/cybrcore/cybrland) is applied
+- Make sure hyprland is installed: `sudo pacman -S hyprland` and [cybrcore theme](https://github.com/cybrcore/cybr-hyprland) is applied
 - Make sure swaync is installed: `sudo pacman -S swaync`
-- See [Installation Guide](../INSTALL.md) if you haven't set up prerequisites yet
+- See [Installation Guide](https://github.com/cybrcore/cybrdots/blob/main/INSTALL.md) if you're coming from [cybr-hyprland](https://github.com/cybrcore/cybr-hyprland) and haven't set up prerequisites yet
 - [rofi Github](https://github.com/davatorium/rofi) | [Arch Wiki](https://wiki.archlinux.org/title/Rofi)
 
 ## 1. Download rofi configs
 ```sh
 git clone --depth=1 --filter=blob:none --no-checkout https://github.com/cybrcore/cybr-rofi.git && cd cybr-rofi && git sparse-checkout init --cone && git sparse-checkout set rofi && git checkout main && mv rofi ~/.config/ && cd ~ && rm -rf cybr-rofi
 ```
-↑ Unsure what this does? [Explanation](https://github.com/cybrcore/cybrland/blob/main/INSTALL.md#How-sparse-checkout-works)  
+↑ Unsure what this does? [Explanation](https://github.com/cybrcore/cybrdots/blob/main/INSTALL.md#How-sparse-checkout-works)  
 
 ## 2. Verify installation
 ```sh
