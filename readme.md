@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/repo-banners/cybr-rofi-banner.png" height=200px/>
+<img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/repo-banners/cybr-rofi-banner-top.png"/>
 
 # Showcase
 <img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/showcase/cybr-rofi.png"/>
@@ -22,7 +22,7 @@ fc-cache -fv
 ```
 - Make sure hyprland is installed: `sudo pacman -S hyprland` and [cybrcore theme](https://github.com/cybrcore/cybr-hyprland) is applied
 - Make sure swaync is installed: `sudo pacman -S swaync`
-- See [Installation Guide](https://github.com/cybrcore/cybrdots/blob/main/INSTALL.md) if you're coming from [cybr-hyprland](https://github.com/cybrcore/cybr-hyprland) and haven't set up prerequisites yet
+- See [Installation Guide](https://github.com/cybrcore/cybrdots/blob/main/INSTALL.md) if you're coming from [cybrdots](https://github.com/cybrcore/cybrdots) and haven't set up prerequisites yet
 - [rofi Github](https://github.com/davatorium/rofi) | [Arch Wiki](https://wiki.archlinux.org/title/Rofi)
 
 ## 1. Download rofi configs
